@@ -1,0 +1,25 @@
+# Ignore python cache files
+__pycache__/
+*.pyc
+
+# virtual environment
+.venv/
+env/
+
+# Trained model
+# Results from the script
+phishing_results/
+bert_logs/
+*.log
+
+# VS code folder
+.vscode/
+
+*phish.txt
+
+# Mac stuff
+.DS_Store
+
+build/
+dist/
+*.spec

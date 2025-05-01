@@ -1,0 +1,9 @@
+torch
+pandas
+datasets
+transformers
+scikit-learn
+pyfiglet
+safetensors
+rich
+urllib3
