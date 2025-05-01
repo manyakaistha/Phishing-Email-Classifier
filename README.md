@@ -8,6 +8,7 @@ A machine learning-based CLI application that detects phishing emails using Dist
 - Model taining sript included
 
 ## Prerequisites
+- git
 - Python 3
 - pip
 
@@ -15,7 +16,7 @@ A machine learning-based CLI application that detects phishing emails using Dist
 Clone this repository:
 ```bash
 git clone
-cd phishing-email-classifier
+cd Phishing-Email-Classifier
 ```
 
 ### Automatically using setup.sh
@@ -40,7 +41,7 @@ This appraoch will install all the required dependencies and set up the virtual 
 3. Get the ML model:
    ```bash
    git clone https://github.com/manyakaistha/Phishing_Classifier_ML_Model.git
-   mv Phishing_Classifier_ML_Model trained_model 
+   mv Phishing_Classifier_ML_Model trained_model
    ```
 #### Using UV (recommended)
 
@@ -80,13 +81,13 @@ python cli_app.py
 ```
 Input the email text and one a new line write `EOF` or `DONE` and press `enter` to proceed to the prediction.
 
-![Phishing Classifier Input Page](./images/Screenshot 2025-05-01 at 13.40.16.png)
-![Phishing Classifier Input Page, with an example email](./images/Screenshot 2025-05-01 at 13.41.49.png)
+![Phishing Classifier Input Page](inputP.png)
+![Phishing Classifier Input Page, with an example email](inputWT.png)
 
 The result will be displayed in the terminal.
-![Phishing Classifier Result Page](./images/Screenshot 2025-05-01 at 13.42.28.png)
+![Phishing Classifier Result Page](outputP.png)
 
-You can press `enter` to analyze another email or exit the app by typing `exit` or `quit` and then pressing `enter`. 
+You can press `enter` to analyze another email or exit the app by typing `exit` or `quit` and then pressing `enter`.
 
 ## Training the Model (Optional)
 If you want to retrain the model:
@@ -103,4 +104,4 @@ If you want to retrain the model:
 - `requirements.txt`: Python dependencies
 
 ## License
-I don't any idea about the licensing, if you want to fork it, feel free to do so and use it for your own purposes. I take no responsibility for any misuse of this code.
+I don't any idea about the licensing, if you want to, fork it. Feel free to do so and use it for your own purposes. I take no responsibility for any misuse of this code.
