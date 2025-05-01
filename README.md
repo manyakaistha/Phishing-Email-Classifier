@@ -35,40 +35,42 @@ This appraoch will install all the required dependencies and set up the virtual 
    source .venv/bin/activate  # On Windows use `.venv\Scripts\activate`
    ```
 ### Manually
-#### Using UV (recommended)
 1. Clone this repository
-2. Navigate to the project directory 
-3. Create a virtual environment:
+2. Navigate to the project directory
+3. Get the ML model:
+   ```bash
+   git clone https://github.com/manyakaistha/Phishing_Classifier_ML_Model.git
+   mv Phishing_Classifier_ML_Model trained_model 
+   ```
+#### Using UV (recommended)
+
+4. Create a virtual environment:
    ```bash
    uv venv
    ```
-4. Activate the virtual environment:
+5. Activate the virtual environment:
    ```bash
    source .venv/bin/activate  # On Windows use `.venv\Scripts\activate`
    ```
-5. Install the required dependencies:
+6. Install the required dependencies:
    ```bash
    uv pip install -r requirements.txt
    ```
 #### Using python virtual environment
-1. Clone this repository
-2. Navigate to the project directory
-3. Create a virtual environment:
+4. Create a virtual environment:
    ```bash
    python -m venv .venv
    ```
-4. Activate the virtual environment:
+5. Activate the virtual environment:
    ```bash
    source .venv/bin/activate  # On Windows use `.venv\Scripts\activate`
    ```
-5. Install the required dependencies:
+6. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 #### Without virtual environment
-1. Clone this repository
-2. Navigate to the project directory
-3. Install the required dependencies:
+4. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
@@ -77,10 +79,13 @@ This appraoch will install all the required dependencies and set up the virtual 
 python cli_app.py
 ```
 Input the email text and one a new line write `EOF` or `DONE` and press `enter` to proceed to the prediction.
+
 ![Phishing Classifier Input Page](./images/Screenshot 2025-05-01 at 13.40.16.png)
 ![Phishing Classifier Input Page, with an example email](./images/Screenshot 2025-05-01 at 13.41.49.png)
+
 The result will be displayed in the terminal.
 ![Phishing Classifier Result Page](./images/Screenshot 2025-05-01 at 13.42.28.png)
+
 You can press `enter` to analyze another email or exit the app by typing `exit` or `quit` and then pressing `enter`. 
 
 ## Training the Model (Optional)
