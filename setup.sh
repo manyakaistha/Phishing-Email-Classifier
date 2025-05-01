@@ -23,6 +23,7 @@ else
     git clone "$MODEL_REPO_URL"
     mv Phishing_Classifier_ML_Model trained_model
     echo "ML Model Repository cloned successfully."
+fi
 
 echo_message "Checking for virtual environment..."
 
