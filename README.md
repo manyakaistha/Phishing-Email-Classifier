@@ -12,7 +12,8 @@ A machine learning-based CLI application that detects phishing emails using Dist
 - Python 3
 - pip
 ## Demo Video
-![Demo Video](Demo Video.mp4)
+<video src="./Demo Video.mp4" width="320" height="240" controls></video>
+
 ## Installation
 Clone this repository:
 ```bash
