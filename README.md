@@ -19,7 +19,7 @@ https://youtu.be/qNSeYnZ2q6Y
 ## Installation
 Clone this repository:
 ```bash
-git clone
+git clone https://github.com/manyakaistha/Phishing-Email-Classifier.git
 cd Phishing-Email-Classifier
 ```
 
